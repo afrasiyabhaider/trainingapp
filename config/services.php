@@ -43,10 +43,5 @@ return [
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
     ],
-    'google' => [
-        'client_id' => '718647540998-u820pmv9e9hvituvs9hq4mmascodgosb.apps.googleusercontent.com',
-        'client_secret' => 'lyp4c0VwGb2m3bgCOKvbJmAv',
-        'redirect' => 'http://localhost:8080/github/trainingapp/public/login/google/callback',
-    ],
 
 ];
